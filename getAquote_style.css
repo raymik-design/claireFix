@@ -1,0 +1,80 @@
+body {
+  line-height: 2;
+  padding: 1em;
+}
+
+.containerQuote {
+  /* margin-left: auto;
+  margin-right: auto; */
+
+  padding: 1rem 10rem;
+  grid-column: 1 / -1;
+
+  /* width: 90%; */
+}
+@media only screen and (max-width: 576px) {
+  .containerQuote {
+    padding: 1rem 0;
+  }
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.wrapperQuote {
+  box-shadow: 0 0 20px 0 rgba(53, 115, 97, 0.7);
+}
+.wrapperQuote > * {
+  padding: 1em;
+}
+.company-info {
+  background-color: white;
+}
+.company-info h3,
+.company-info ul {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+.contact {
+  background-color: lightgray;
+  padding: 1em;
+}
+/*Form Styles*/
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.contact form label {
+  display: block;
+}
+.contact form p {
+  margin: 0;
+}
+.contact form .full {
+  grid-column: 1 / 3;
+}
+.button1,
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 2em;
+  border: double rgb(238, 137, 13);
+}
+.contact form button {
+  background-color: rgb(53, 115, 97);
+  color: #fff;
+  border: 0;
+  text-transform: uppercase;
+  display: inline;
+  font-weight: bolder;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+}
+
+.wrapperQuote > * {
+  padding: 2em;
+}
+
+/* you have added footer code here, but you have fotoer already in style.css, don't duplicate */
